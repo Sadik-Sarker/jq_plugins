@@ -1,0 +1,166 @@
+
+/* particle */
+.for_particle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* navbar css start */
+.custom_navbar{
+  position: fixed;
+  width: 100%;
+    top: 0;
+  padding: 20px 0;
+}
+.bg{
+    z-index: 999;
+  background-color: rgba(255, 165, 0, 0.5) !important;
+  animation: bgsmooth 1s;
+}
+@keyframes bgsmooth{
+  from{top: -50px;}
+  to{top: 0;}
+}
+/* for type js */
+/*Add custom cursor so it auto inherits font styles*/
+.type_js{
+  padding-top: 120px;
+}
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/* wow start */
+/* pricing start */
+.p-inner-wrapper {
+  margin-top: 80px;
+  padding: 0 30px;
+  border: 1px solid #8e8e8e;
+  transition: 0.4s;
+}
+.p-inner-wrapper:hover {
+  cursor: pointer;
+  border: 1px solid #333333;
+}
+.p-inner-wrapper:hover .p-btn-wrapper .btn-banner {
+  border: 1px solid #333333;
+}
+.p-inner-wrapper p span {
+  font-size: 36px;
+  color: #333333;
+}
+.p-inner-wrapper ul {
+  list-style: none;
+  padding-left: 0;
+}
+.p-inner-wrapper ul li {
+  margin-bottom: 20px;
+}
+.p-i-top-wrapper {
+  margin-top: -10px;
+}
+.p-i-top-wrapper h3 {
+  font-family: Lato-Bold;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+  background-color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.p-btn-wrapper .btn-banner {
+  border: 1px solid #8e8e8e;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-color: #f8f8f8;
+  padding: 12px 30px;
+  transition: 0.4s;
+}
+.p-btn-wrapper .btn-banner:hover{
+  background-color: rgba(142, 142, 142, .3);
+}
+/* pricing end */
+/* wow end */
+/* count down */
+#getting-started-month,
+#getting-started-day,
+#getting-started{
+  border: 1px solid orangered;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+}
+#getting-started-month span,
+#getting-started-day span{
+  color: red;
+}
+.back_to_top{
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 9;
+  display: none;
+}
+.back_to_top i{
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: #fff;
+  background-color: aqua;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+/* venobox start */
+.venobox_part,
+.mixitupp,
+.first_sec,
+.para_wrapper,
+.slick_slider{
+  padding-top: 100px;
+}
+/* mixit up */
+.box-item{
+  margin-bottom: 20px;
+}
+.box-item img{
+  object-fit: cover;
+}
+/* parallax */
+.first_sec,
+.second_sec {
+  min-height: 400px;
+  background: transparent;
+}
+.slick-arrow{
+  background-color: orange;
+}
+.slick-arrow:hover{
+  background-color: orangered;
+}

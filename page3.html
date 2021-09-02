@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="vendor/lightbox/src/css/lightbox.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>JQ Plugins</title>
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom_navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">JQ Plugins</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Page 01</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page2.html">Page 02</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page3.html">Page 03</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page4.html">Page 04</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page5.html">Page 05</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+    <section class="mixitupp">
+      <div class="container">
+        <h1 class="text-center text-warning mb-3">MixitUp Practice & LightBox</h1>
+        <div class="row mb-3">
+          <div class="col-lg-12">
+            <div class="box_menu text-center">
+              <button type="button" class="btn btn-outline-info" data-filter="all">All</button>
+              <button type="button" class="btn btn-outline-info" data-filter=".category-a">Category A</button>
+              <button type="button" class="btn btn-outline-info" data-filter=".category-b">Category B</button>
+              <button type="button" class="btn btn-outline-info" data-filter=".category-c">Category C</button>
+            </div>
+          </div>
+        </div>
+        <div class="row box-list">
+          <div class="col-lg-4 mix box-item category-a">
+            <a href="images/photo1.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="images/photo1.jpg" class="img-fluid" alt="images"></a>
+          </div>
+          <div class="col-lg-4 mix box-item category-a category-b">
+            <a href="images/photo2.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="images/photo2.jpg" class="img-fluid" alt="images"></a>
+          </div>
+          <div class="col-lg-4 mix box-item category-b">
+            <a href="images/photo3.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="images/photo3.jpg" class="img-fluid" alt="images"></a>
+          </div>
+          <div class="col-lg-4 mix box-item category-a">
+            <a href="images/photo4.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="images/photo4.jpg" class="img-fluid" alt="images"></a>
+          </div>
+          <div class="col-lg-4 mix box-item category-a category-c">
+            <a href="images/photo5.png" data-lightbox="roadtrip" data-title="My caption"><img src="images/photo5.png" class="img-fluid" alt="images"></a>
+          </div>
+          <div class="col-lg-4 mix box-item category-c">
+            <a href="images/photo6.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="images/photo6.jpg" class="img-fluid" alt="images"></a>
+          </div>
+          <div class="col-lg-4 mix box-item category-b category-c">
+            <a href="images/photo7.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="images/photo7.jpg" class="img-fluid" alt="images"></a>
+          </div>
+          <div class="col-lg-4 mix box-item category-a category-c">
+            <a href="images/photo8.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="images/photo8.jpg" class="img-fluid" alt="images"></a>
+          </div>
+          <div class="col-lg-4 mix box-item category-b">
+            <a href="images/photo9.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="images/photo9.jpg" class="img-fluid" alt="images"></a>
+          </div>
+        </div>
+      </div>
+        
+    </section>
+
+
+    <!-- JS links -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="vendor/mixitup/js/mixitup.min.js"></script>
+    <script src="vendor/lightbox/src/js/lightbox.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitjq.js"></script>
+</body>
+
+</html>
